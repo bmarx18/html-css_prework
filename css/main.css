@@ -1,0 +1,144 @@
+head, html{
+    height: 15%;
+    background-color: #363535;
+    padding; 2px;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 3px;
+    color: black;
+    color: whitesmoke;
+}
+
+nav ul{
+    text-align: center;
+    margin: 0px;
+    margin-top: 3px;
+    padding: 5px;
+    padding-top:10px;
+    width: 100%;
+}
+
+nav li{
+    display: inline;
+    text-align: left;
+    margin: 0px;
+    margin-top: 3px;
+    padding: 3px;
+    color: whitesmoke;
+    list-style-type: none;
+}
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #6caddf;
+}
+
+#main{
+    width: 75%;
+    float:left;
+    height: 100%;
+    padding-left:20px;
+    padding-top: 2px;
+}
+
+#side_bar{
+    width: 21%;
+    float: right;
+    height: 100%;
+    padding: 5px;
+    list-style-type: none;
+    text-align: left;
+}
+
+#profile_image{
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+}
+
+#profile{
+    text-align: left;
+    list-style-type: none;
+    radius:5px;
+}
+
+#profile h2{
+    display: inline;
+    padding: 5px;
+}
+
+#profile li{
+    display: inline;
+    text-align: left;
+    list-style-type: none;
+}
+
+#profile_details{
+    margin-right: 24px;
+    display: inline;
+    text-align: left;
+}
+
+.side_articles, .main_articles{
+    padding: 10px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+.side_articles{
+    text-align: left;
+}
+
+#side_bar{
+    border: 5px solid #eaeaea;
+    background-color: #8e793e;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.main_articles{
+    background-color: #8e793e;
+    border: 5px solid #eaeaea;
+}
+
+form{
+    margin-top: 15px;
+}
+
+textarea, input{
+    background-color: ;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+footer{
+    bottom:0px;
+    width: 100%;
+    margin: 5px;
+    margin-top: 0px;
+}
+
+footer hr{
+    border: 0px;
+}
+
+main{
+    overflow: auto;
+}
+
+#main_articles figure{
+    display: inline;
+    text-align: center;
+}
